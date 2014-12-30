@@ -74,8 +74,8 @@
     [[self contentView] setFrame:self.bounds];
     
     [[self textLabel] setFrame:CGRectMake(roundf(frameSize.width / 2 - titleSize.width / 2),
-                                           roundf(frameSize.height / 2 - titleSize.height / 2),
-                                           titleSize.width, titleSize.height)];
+                                          roundf(frameSize.height / 2 - titleSize.height / 2),
+                                          titleSize.width, titleSize.height)];
 }
 
 #pragma mark - Selection
